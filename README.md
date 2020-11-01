@@ -28,7 +28,7 @@ Found a couple of obvious errors in the initial readme.
 
 The calls for the TCP class takes bytes, not strings. So b"foo" or FOVAR.encode('utf-8') is your friend.
 
-## Current State as of now ad future plans
+## Current State as of now and future plans
 Since I do not have the board soldered yet, there is not imput. Send.py just sends a fixed set of packets.
 Will eventually be a cron job reading the board and sending the packets.
 
