@@ -19,10 +19,10 @@ Seems workable, but I tend to not use bash as a programming language. I use it a
 python.
 
 So other than getting the packes generated while I was playing, Dire Wolf got me no where.
-## Dire Wolf Pass2
-Took about an hour.  You will see geiger_reading.py is call from a CBEACON.  For not it will create /var/rn/geiger to hold the latest seq number.  Need a beter place for the file so direwolf does not have to be run as root.
+## Dire Wolf Pass 2
+Took about an hour.  You will see geiger_reading.py is called from a CBEACON.  For notw it will create /var/run/geiger to hold the latest seq number.  Need a better place for the file so direwolf does not have to be run as root.
 
-Once get the geiger board assembled will add the code to read the data.
+Once I get the geiger counter assembled I will add the code to read the data.
 
 ##Python APRS library
 Ran these 2 commands and I was in business:
