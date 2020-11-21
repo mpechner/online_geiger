@@ -34,11 +34,24 @@ Found a couple of obvious errors in the initial readme.
 
 The calls for the TCP class takes bytes, not strings. So b"foo" or FOVAR.encode('utf-8') is your friend.
 
+## MightyOhm Wiring to Raspberrypi
+http://mightyohm.com/forum/viewtopic.php?t=4524
+Pin marked 'blk' on the ftdi pins is pin1
+MO   Pi
+1....6
+4....8
+5...10
+
+https://mightyohm.com/blog/products/geiger-counter/usage-instructions/
+CSV lines;  CPS, #####, CPM, #####, uSv/hr, ###.##, SLOW|FAST|INST
+I am posting "uSv/hr"
+
 ## Current State as of now and future plans
 Since I do not have the board soldered yet, there is not imput. Send.py just sends a fixed set of packets.
 Will eventually be a cron job reading the board and sending the packets.
 
 Coming **Thanksgiving 2020**
+
 
 # References
 __Dire Wolf user guide__ https://github.com/wb2osz/direwolf/blob/master/doc/User-Guide.pdf
