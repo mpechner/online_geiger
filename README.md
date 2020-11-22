@@ -37,13 +37,17 @@ The calls for the TCP class takes bytes, not strings. So b"foo" or FOVAR.encode(
 ## MightyOhm Wiring to Raspberrypi
 http://mightyohm.com/forum/viewtopic.php?t=4524
 Pin marked 'blk' on the ftdi pins is pin1
+
+```
 MO   Pi
 1....6
 4....8
 5...10
+```
 
 https://mightyohm.com/blog/products/geiger-counter/usage-instructions/
-CSV lines;  CPS, #####, CPM, #####, uSv/hr, ###.##, SLOW|FAST|INST
+> CSV lines;  CPS, #####, CPM, #####, uSv/hr, ###.##, SLOW|FAST|INST
+
 I am posting "uSv/hr"
 
 ## Current State as of now and future plans
