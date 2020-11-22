@@ -26,8 +26,8 @@ Once I get the geiger counter assembled I will add the code to read the data.
 
 ##Python APRS library
 Ran these 2 commands and I was in business:
-* sudo apt-get install pip3
-* sudo apt-get install aprs
+* sudo apt-get install python3-pip
+* sudo pip3 install aprs
 
 The issue with this library is even though a version 7 makes it look mature, the code might be abandoned.
 Found a couple of obvious errors in the initial readme.
@@ -54,10 +54,10 @@ Coming **Thanksgiving 2020**
 
 
 # References
-__Dire Wolf user guide__ https://github.com/wb2osz/direwolf/blob/master/doc/User-Guide.pdf
-__Dire Wolf Repo__ git clone git@github.com:wb2osz/direwolf.git
-__APRS Passcode Generator__ https://apps.magicbug.co.uk/passcode/
-__Dire Wolf Telemetery__https://github.com/wb2osz/direwolf/blob/master/doc/APRS-Telemetry-Toolkit.pdf
-__APRS Website__ http://www.aprs.org/
-__APRS Reference__ http://www.aprs.org/doc/APRS101.PDF
-__APRS BASH__ https://s55ma.radioamater.si/2017/07/27/send-aprs-objects-or-telemetry-via-bash/
+* Dire Wolf user guide https://github.com/wb2osz/direwolf/blob/master/doc/User-Guide.pdf
+* Dire Wolf Repo git clone git@github.com:wb2osz/direwolf.git
+* APRS Passcode Generator https://apps.magicbug.co.uk/passcode/
+* Dire Wolf Telemetery https://github.com/wb2osz/direwolf/blob/master/doc/APRS-Telemetry-Toolkit.pdf
+* APRS Website http://www.aprs.org/
+* APRS Reference http://www.aprs.org/doc/APRS101.PDF
+* APRS BASH https://s55ma.radioamater.si/2017/07/27/send-aprs-objects-or-telemetry-via-bash/
