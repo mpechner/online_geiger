@@ -3,6 +3,10 @@ I'm not the first one, won't be the last.
 
 So now 2 working aproaches.
 
+## Current states 11/22/2020
+I flushed out send.py using the APRS python library. runing via cron once an hour.
+:w
+
 ## Dire Wolf - First Pass
 I made a pass using Dire Wolf. Problem is since this is in my house I did not feel 
 the need to pass the packets over the air. Just run an igate and send the data. 
@@ -33,6 +37,13 @@ The issue with this library is even though a version 7 makes it look mature, the
 Found a couple of obvious errors in the initial readme.
 
 The calls for the TCP class takes bytes, not strings. So b"foo" or FOVAR.encode('utf-8') is your friend.
+
+## Some setup notes
+Using the Raspberry Pi OS Lite Image
+* apt-get install git python3
+* git clone git@github.com:mpechner/online_geiger.git
+* sudo apt-get install python3-pip
+* sudo pip3 install aprs pyserial
 
 ## MightyOhm Wiring to Raspberrypi
 http://mightyohm.com/forum/viewtopic.php?t=4524
