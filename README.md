@@ -75,3 +75,4 @@ Coming **Thanksgiving 2020**
 * APRS Website http://www.aprs.org/
 * APRS Reference http://www.aprs.org/doc/APRS101.PDF
 * APRS BASH https://s55ma.radioamater.si/2017/07/27/send-aprs-objects-or-telemetry-via-bash/
+* Enable Serial https://pimylifeup.com/raspberry-pi-serial/
