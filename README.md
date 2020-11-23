@@ -39,11 +39,21 @@ http://mightyohm.com/forum/viewtopic.php?t=4524
 Pin marked 'blk' on the ftdi pins is pin1
 
 ```
+6 pin serial
 MO   Pi
 1....6
 4....8
 5...10
 ```
+
+Power Mighty Ohm from Pi.  Make sure you remove the batteries.
+```
+3 pin pulse
+MO    Pi
+1....1 3.3v
+3....14 gnd
+```
+
 
 https://mightyohm.com/blog/products/geiger-counter/usage-instructions/
 > CSV lines;  CPS, #####, CPM, #####, uSv/hr, ###.##, SLOW|FAST|INST
@@ -65,3 +75,4 @@ Coming **Thanksgiving 2020**
 * APRS Website http://www.aprs.org/
 * APRS Reference http://www.aprs.org/doc/APRS101.PDF
 * APRS BASH https://s55ma.radioamater.si/2017/07/27/send-aprs-objects-or-telemetry-via-bash/
+* Enable Serial https://pimylifeup.com/raspberry-pi-serial/
