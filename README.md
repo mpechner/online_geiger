@@ -1,11 +1,13 @@
 # APRS Geiger Counter
-I'm not the first one, won't be the last. 
+I'm not the first one, won't be the last. The mightyOhm gieger counter has serial output. I figured it would be kinda cool to show background radiation in my home and push to APRS IS. You can see my notes aren't the perfect how to. I cover 2 approaches as well as notes soing the fail from me working while a bit tired. 
+
+Link to the APRS telemetry graphs.  https://aprs.fi/telemetry/a/ne6rd-11
 
 So now 2 working aproaches.
 
 ## Current states 11/22/2020
 I flushed out send.py using the APRS python library. runing via cron once an hour.
-:w
+
 
 ## Dire Wolf - First Pass
 I made a pass using Dire Wolf. Problem is since this is in my house I did not feel 
